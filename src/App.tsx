@@ -1,12 +1,17 @@
-// import Counter2 from "./components/Counter2";
-import Counter3 from "./components/Counter3";
+import MyComponent from "./components/MyComponent";
 
 const App = () => {
   return (
     <div>
-      <Counter3 />
+      <MyComponent />
+      {/* import Counter4_exportVer from "./components/Counter4_exportVer";
+      <Counter4_exportVer /> */}
 
-      {/* <Counter2/> */}
+      {/* import Counter3 from "./components/Counter3";
+      <Counter3 /> */}
+
+      {/* import Counter2 from "./components/Counter2";
+       <Counter2/> */}
 
       {/* import FormInput from "./components/FormInput";
           import ContactForm from "./components/ContactForm";
